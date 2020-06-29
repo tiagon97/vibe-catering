@@ -1,0 +1,19 @@
+<div class="modal" *ngIf="isOpen">
+  <h3>Zaloguj się</h3>
+  <span class="close" (click)="openModal()">X</span>
+  <div class="login">
+    <label for="login">Podaj login:</label>
+    <input type="text" id="login" />
+  </div>
+  <div class="passwd">
+    <label for="password">Podaj hasło:</label>
+    <input type="password" id="password" />
+  </div>
+
+  <button class="log-in">Zaloguj</button>
+
+  <div class="registration">
+    <span>Nie masz jeszcze konta?</span>
+    <button>Zarejestruj się!</button>
+  </div>
+</div>
